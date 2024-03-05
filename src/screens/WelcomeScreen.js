@@ -13,9 +13,9 @@ const WelcomeScreen = () => {
           Let's get Started
         </Text>
         <View style={styles.imageContainer}>
-        <Image source={require("../../assets/images/what.avif")} style={styles.image3} />  
-        <Image source={require("../../assets/images/witt.jpg")} style={styles.image} />
-          <Image source={require("../../assets/images/Jesus.jpg")} style={styles.image2} />
+        <Image source={require("../assets/images/what.avif")} style={styles.image3} />  
+        <Image source={require("../assets/images/witt.jpg")} style={styles.image} />
+          <Image source={require("../assets/images/Jesus.jpg")} style={styles.image2} />
         </View>
         <View style={styles.imageContainer}>
         
