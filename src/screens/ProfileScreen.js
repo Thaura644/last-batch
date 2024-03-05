@@ -10,7 +10,7 @@ import { PageVisitsTable } from "../components/Tables";
 // Assume SalesValueWidget, CounterWidget, CircleChartWidget, PageVisitsTable, TeamMembersWidget,
 // ProgressTrackWidget, BarChartWidget, RankingWidget, AcquisitionWidget are React Native components
 
-const DashboardScreen = () => {
+const ProfileScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -67,4 +67,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default DashboardScreen;
+export default ProfileScreen;
